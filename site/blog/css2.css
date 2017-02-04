@@ -1,0 +1,49 @@
+body 
+{
+     background-image: url("bg6.png");
+     background-repeat: no-repeat;
+     color: black;
+     background-size: cover;
+font-size: 18px;
+color: grey;
+}
+
+h1 {
+    color: grey;
+    text-align: left;
+}
+h2 {
+    text-align: left;
+}
+
+p {
+    font-family: verdana;
+    font-size: 40px;
+   
+}
+
+table {
+   border: 100px;
+   height: 100px;
+   
+}
+
+td {
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    padding: 30;
+
+ 
+}
+
+img {
+    border-radius: 10%;
+ 
+}
+ br.b {
+        line-height: 1750%;
+     }
+br.c {
+        line-height: 750%;
+     }

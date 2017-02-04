@@ -1,0 +1,24 @@
+body
+{
+border-style: groove;
+ margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 40px;
+}
+
+
+
+
+td {
+    height: 30px;
+    vertical-align: center; 
+    padding: 20px;
+ 
+}
+
+img {
+    float: right;
+    margin: 1 900 40px 200px;
+align="right"
+}
