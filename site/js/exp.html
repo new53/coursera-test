@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var a1=[1,4,7,9,8]
+		var a2=[2,3,4,6,5,9]
+		a1.sort();
+		a2.sort();
+		var a1Len=a1.length;
+		var a2Len=a2.length;
+		var temp1=0,temp2=0,prev1=0,prev2=0;
+		console.log(a1);
+		console.log(a2);
+		
+		for(i=0;i<a1Len-1;i++)
+		{
+			for(j=1;j<a1Len;j++)
+			{
+				if(a1[i]>a1[j])
+				{
+					temp1=a1[i];
+				
+				prev1=a1[i-1];
+			}
+				else 
+				{
+					temp1=a1[j];
+				
+				prev1=a1[j-1];
+}
+
+
+			}
+		}
+		for(i=0;i<a2Len-1;i++)
+		{
+			for(j=1;j<a2Len;j++)
+			{
+				if(a1[i]>a1[j])
+				{
+					temp2=a2[i];
+				
+				prev2=a2[i-1];
+			}
+				else 
+				{
+					temp2=a2[j];
+				
+				prev2=a2[j-1]
+					}
+				
+
+
+			}
+
+		}
+	
+		if(temp1==temp2)
+		{
+
+		if(prev1>prev2)
+		{
+			console.log(prev1)
+		}
+		else
+			console.log(prev2)
+	}
+	else
+	{
+		if(temp1>temp2)
+		{
+			console.log(temp1)
+		}
+		else
+			console.log(temp2)
+	}
+	</script>
+	<title>JavaScript</title>
+	</head>
+	<body>
+		<h1>Akshar shah	</h1>
+		<h2>A047</h2>
+	</body>
+	</html>
