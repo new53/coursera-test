@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="date" id="myDate">
+
+<p>Click the button to get the day of the date.</p>
+
+
+<button onclick="date()">Find</button>
+
+<p id="display"></p>
+
+<script>
+function date() {
+ var x = document.getElementById("myDate").value;
+    var d = new Date(x);
+    var n = d.getDay()
+    var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+    document.getElementById("display").innerHTML = days[n];
+}
+</script>
+
+</body>
+</html>
