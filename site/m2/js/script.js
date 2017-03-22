@@ -9,20 +9,32 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
+            function (res) {
+              var temp =
+   document.getElementById("name").value;
+                 
+              if ( temp === res.student1) {
+             
+                
+	document.getElementById("display").innerHTML =
+		res.q1;
+              }
+              else if (temp === res.student2) {
+               
+	document.getElementById("display").innerHTML =
+		res.q2;
+              }
+          else {
+            document.getElementById("display").innerHTML =
+		"enter valid name";
+          }
+              document.querySelector("#content")
+                .innerHTML = "<h2>" + temp+ "</h2>";
 
-            function question() {
- 	var x = document.getElementById("name").value;
-	if(name=="x")	
-	{
-		obj = JSON.parse(text);
-		document.getElementById("display").innerHTML =
-		obj.question[1].first;
-	}
-
-    //var d = new Date(x);
-    //var n = d.getDay()
-    //var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
-    //document.getElementById("display").innerHTML = days[n];
+              document.querySelector("#content")
+                .innerHTML = "<h2>" + temp2+ "</h2>";
+          document.querySelector("#content1")
+                .innerHTML = "<h2>" + temp1+ "</h2>";
             });
       });
   
