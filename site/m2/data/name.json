@@ -1,0 +1,2 @@
+var text = '{"question":[' +
+'{"first":"2+2=?","second":"2+3=?" },';
