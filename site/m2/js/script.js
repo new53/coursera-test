@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded",
     //var n = d.getDay()
     //var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
     //document.getElementById("display").innerHTML = days[n];
-            });
+            };
       });
   
   }
