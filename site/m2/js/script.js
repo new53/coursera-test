@@ -17,12 +17,13 @@ document.addEventListener("DOMContentLoaded",
 		obj = JSON.parse(text);
 		document.getElementById("display").innerHTML =
 		obj.question[1].first;
+	}
 
     //var d = new Date(x);
     //var n = d.getDay()
     //var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
     //document.getElementById("display").innerHTML = days[n];
-            };
+            });
       });
   
   }
