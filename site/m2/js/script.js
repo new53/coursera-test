@@ -24,19 +24,7 @@ document.addEventListener("DOMContentLoaded",
 	document.getElementById("display").innerHTML =
 		res.q2;
               }
-          else {
-            document.getElementById("display").innerHTML =
-		"enter valid name";
-          }
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + temp+ "</h2>";
-
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + temp2+ "</h2>";
-          document.querySelector("#content1")
-                .innerHTML = "<h2>" + temp1+ "</h2>";
-            });
-      });
+        
   
   }
 );
