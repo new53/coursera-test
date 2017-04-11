@@ -13,17 +13,20 @@ document.addEventListener("DOMContentLoaded",
               x=document.getElementById("myText").value;
              
               var message = 
-                res.firstName + " " + res.lastName
+                res.name1 + " " + res.name2
               message +=x;
-              if (res.likesChineseFood) {
-                message += " likes Chinese fooda";
+              if (res.name1==x) {
+                message += "question for one";
+              }
+	if (res.name1==x) {
+                	message += "question for two";
               }
               else {
-                message += " doesn't like Chinese food";
+                message += "enter a name";
               }
-              message += " and uses ";
+             
               message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
+              
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
