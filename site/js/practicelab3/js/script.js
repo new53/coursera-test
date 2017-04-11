@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("data/name.json", 
             function (res) {
               x=document.getElementById("myText").value;
-              message +="x";
+             
               var message = 
                 res.firstName + " " + res.lastName
+              message +="x";
               if (res.likesChineseFood) {
-                message += " likes Chinese food";
+                message += " likes Chinese fooda";
               }
               else {
                 message += " doesn't like Chinese food";
