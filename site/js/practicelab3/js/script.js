@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded",
               if (res.name1==x) {
                 message += "question for one";
               }
-	if (res.name1==x) {
+	if (res.name2==x) {
                 	message += "question for two";
               }
               else {
