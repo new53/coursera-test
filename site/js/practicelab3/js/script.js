@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",
              
               var message = 
                 res.firstName + " " + res.lastName
-              message +="x";
+              message +=x;
               if (res.likesChineseFood) {
                 message += " likes Chinese fooda";
               }
