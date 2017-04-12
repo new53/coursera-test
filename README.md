@@ -113,4 +113,13 @@ document.addEventListener("DOMContentLoaded",
 );
 
 
+-------
+
+
+{
+  "arr2": ["ab","bc","ld","fds","sd","awe","ew","er","ldes","dfe"],
+  "arr": [2,3,4,11,5,6,7,8,9,10]
+  
+}
+
 
