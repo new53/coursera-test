@@ -121,5 +121,21 @@ document.addEventListener("DOMContentLoaded",
   "arr": [2,3,4,11,5,6,7,8,9,10]
   
 }
+-------
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+<body>
+  <h1 id="title">WP solution M3 1</h1>
+  
+  Enter Number: <input id="fname" type="text" name="fname"><br>
+  <input type="button" value="Submit" id="btn"/>
+  <div id="content"></div>
 
+</body>
+</html>
 
