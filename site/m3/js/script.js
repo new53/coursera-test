@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
-            function (res) {
+              function (res) {
               var temp =
    document.getElementById("student").value;
                  
@@ -29,7 +29,9 @@ document.addEventListener("DOMContentLoaded",
 	document.getElementById("display").innerHTML =
 		res.name3;
               }
-        
-  
+              
+            });
+      });
   }
 );
+
