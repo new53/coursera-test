@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded",
               else if ( temp === res.sap2||temp === res.email2||temp === res.contact2||temp === res.dob2||temp === res.cgpa2) {
                
 	document.getElementById("display").innerHTML =
-		res.q2;
+		res.name2;
               }
 	else if ( temp === res.sap3||temp === res.email3||temp === res.contact3||temp === res.dob3||temp === res.cgpa3) {
                
 	document.getElementById("display").innerHTML =
-		res.q2;
+		res.name3;
               }
         
   
