@@ -7,7 +7,7 @@
  
   "email1": "abc@xyz.com",
   "email2": "cde@fgh.com",
-  "email3": "ijk@lmn.com"
+  "email3": "ijk@lmn.com",
 
   "contact1": "9876543210",
   "contact2": "1472583695",
@@ -19,7 +19,7 @@
 	
    "cgpa1": "2.87",
    "cgpa2": "2.22",
-   "cgpa3": "3.17"
+   "cgpa3": "3.17",
 	
    "name1": "harry",
    "name2": "jim",
